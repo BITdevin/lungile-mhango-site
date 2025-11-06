@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lungile Mhango (Sbukubukwana) - Official Website
 
-## Getting Started
+This repository contains the source code for the official website of Lungile Mhango. It's a single-page, responsive website built with HTML, Tailwind CSS (via CDN), and React.
 
-First, run the development server:
+## Project Mission
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To create a visually stunning, inspirational, and performant official website for Lungile Mhango, celebrating her career, foundation, and personal brand.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **HTML5**
+-   **Tailwind CSS v3+** (via CDN)
+-   **React 19** (via esm import)
+-   **No build step required**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Running Locally on macOS
 
-## Learn More
+This project is designed to be run without any complex setup or build tools.
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone or Download:**
+    Download and unzip the project folder, or clone the repository to your local machine.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    git clone <repository_url> lungile-website
+    cd lungile-website
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2.  **Navigate to the Directory:**
+    Open your terminal and navigate to the project's root directory.
 
-## Deploy on Vercel
+    ```bash
+    cd ~/Infinityguard/webdev/lungile
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Start a Local Server:**
+    macOS comes with Python pre-installed, which includes a simple HTTP server. This is all you need to run the site.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    python3 -m http.server 3000
+    ```
+
+    This command starts a web server on port 3000.
+
+4.  **View the Website:**
+    Open your favorite web browser (like Safari, Chrome, or Firefox) and navigate to:
+
+    [http://localhost:3000](http://localhost:3000)
+
+The website should now be running locally on your machine. Any changes you make to the `index.html` or other source files will be reflected when you refresh the page.
