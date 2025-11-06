@@ -18,7 +18,7 @@ const Business: React.FC = () => {
                         
                         {/* L Mango Kitchen Card */}
                         <div className="bg-white dark:bg-charcoal rounded-lg shadow-2xl overflow-hidden flex flex-col transition-transform transform hover:scale-105 duration-300">
-                            <img src="https://images.unsplash.com/photo-1625944228743-9281a1b8e124?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Delicious plate of Redfish and pap" className="w-full h-64 object-cover" loading="lazy" />
+                            <img src="/media/food.jpg" alt="Delicious plate of rice and fish from L Mango Kitchen" className="w-full h-64 object-cover" loading="lazy" />
                             <div className="p-8 flex-grow flex flex-col">
                                 <div className="flex items-center gap-4 mb-4">
                                     <FoodIcon />
@@ -37,7 +37,7 @@ const Business: React.FC = () => {
 
                         {/* Exclusive Car Wash Card */}
                         <div className="bg-white dark:bg-charcoal rounded-lg shadow-2xl overflow-hidden flex flex-col transition-transform transform hover:scale-105 duration-300">
-                            <img src="https://images.unsplash.com/photo-1607954941019-dea40348c9a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="A clean car gleaming in the sun" className="w-full h-64 object-cover" loading="lazy" />
+                            <img src="/media/Car.jpg" alt="A freshly washed car at Exclusive Car Wash" className="w-full h-64 object-cover" loading="lazy" />
                             <div className="p-8 flex-grow flex flex-col">
                                 <div className="flex items-center gap-4 mb-4">
                                     <CarIcon />

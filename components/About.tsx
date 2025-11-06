@@ -10,7 +10,7 @@ const About: React.FC = () => {
           <div className="grid md:grid-cols-5 gap-12 items-center">
             <div className="md:col-span-2">
               <img
-                src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                src="/media/picture.jpg"
                 alt="Lungile Mhango smiling warmly"
                 className="rounded-lg shadow-2xl object-cover w-full h-full aspect-[4/5]"
                 loading="lazy"
